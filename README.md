@@ -7,6 +7,7 @@ Code used to train model: https://huggingface.co/abacaj/starcoderbase-1b-sft
 Install dependencies:
 ```
 python -m venv env \
+  && source env/bin/activate \
   && pip install -r requirements.txt
 ```
 
