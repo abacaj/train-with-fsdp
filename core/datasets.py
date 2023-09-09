@@ -82,15 +82,7 @@ def load_data(files):
 
 
 def process_example(example: Dict):
-    ex = [
-        example.get("output"),
-        example.get("response"),
-        example.get("explanation"),
-        example.get("code_instruction"),
-    ]
-    ex = list(filter(lambda x: x is not None, ex))
-
-    return ex[0]
+    return example.get("output")
 
 
 def format_sources(example):
