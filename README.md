@@ -1,6 +1,8 @@
 # train-with-fsdp
 
-Code used to train model: https://huggingface.co/abacaj/starcoderbase-1b-sft
+Code used to fine-tune this model: [abacaj/starcoderbase-1b-sft](https://huggingface.co/abacaj/starcoderbase-1b-sft).
+
+Note the data in folder `data/` is not the full training data used. You can find the full set here: [evol-codealpaca-v1](https://huggingface.co/datasets/theblackcat102/evol-codealpaca-v1)
 
 # How to run
 
