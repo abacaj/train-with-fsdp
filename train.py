@@ -118,7 +118,7 @@ if __name__ == "__main__":
     gradient_checkpointing = True
     clip_gradients = True
     shuffle = True
-    batch_size = 2  # adjust to whatever you GPU supports, I used 14 for 3090s
+    batch_size = 2  # adjust to whatever your GPU supports, I used 14 for 3090s
     epochs = 10
     acc_steps = 0  # TODO: implement grad acc
     lr = 7e-05
